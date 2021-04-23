@@ -13,8 +13,8 @@ Or, once the MS Login button is implemented, it will automatically log into the 
 
 You are expected to do the following to complete this project:
 1. Create a Resource Group in Azure. DONE
-2. Create an SQL Database in Azure that contains a user table, an article table, and data in each table (populated with the scripts provided in the SQL Scripts folder).
-    - Provide a screenshot of the populated tables as detailed further below.
+2. Create an SQL Database in Azure that contains a user table, an article table, and data in each table (populated with the scripts provided in the SQL Scripts folder). DONE
+    - Provide a screenshot of the populated tables as detailed further below. DONE
 3. Create a Storage Container in Azure for `images` to be stored in a container.
     - Provide a screenshot of the storage endpoint URL as detailed further below.
 4. Add functionality to the Sign In With Microsoft button. 

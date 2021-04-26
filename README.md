@@ -16,7 +16,7 @@ You are expected to do the following to complete this project:
 2. Create an SQL Database in Azure that contains a user table, an article table, and data in each table (populated with the scripts provided in the SQL Scripts folder). DONE
     - Provide a screenshot of the populated tables as detailed further below. DONE
 3. Create a Storage Container in Azure for `images` to be stored in a container.
-    - Provide a screenshot of the storage endpoint URL as detailed further below.
+    - Provide a screenshot of the storage endpoint URL as detailed further below. DONE
 4. Add functionality to the Sign In With Microsoft button. 
     - This will require completing TODOs in `views.py` with the `msal` library, along with appropriate registration in Azure Active Directory.
 5. Choose to use either a VM or App Service to deploy the FlaskWebProject to Azure. Complete the analysis template in `WRITEUP.md` (or include in the README) to compare the two options, as well as detail your reasoning behind choosing one or the other. Once you have made your choice, go through with deployment.

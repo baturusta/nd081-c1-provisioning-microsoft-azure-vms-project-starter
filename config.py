@@ -5,12 +5,12 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'
 
-    BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'baturcms'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'zp5i+5wQdQD7Me5S8+DXiKVvPqygGJe5ROXZpVRwPmo42ps75K+1qvvK563VIhl6T8SniKbsJ2vD9sXyzlRwpg=='
+    BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'cmsblob136'
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'tOu5B232qTNMzhi5saY3iIGK0KesEcX0CxuW4sedKQbyC4LoT+2YYSESyc7N4l6LVx3suIPHGGlPx57RtlkYLw=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
-    SQL_SERVER = os.environ.get('SQL_SERVER') or 'cmsarticle.database.windows.net'
-    SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'cms_article_db'
+    SQL_SERVER = os.environ.get('SQL_SERVER') or 'batursql.database.windows.net'
+    SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'cms'
     SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or 'baturusta'
     SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or '136noluB'
     # Below URI may need some adjustments for driver version, based on your OS, if running locally
@@ -19,7 +19,7 @@ class Config(object):
 
     ### Info for MS Authentication ###
     ### As adapted from: https://github.com/Azure-Samples/ms-identity-python-webapp ###
-    CLIENT_SECRET = "h1CkpR_m7ia512_bDdGZWcj_qE.cpEP3_-"
+    CLIENT_SECRET = "qT.Nhz~7E~Y6VDM-J1s8wo~5jCJ9_8Rjv0"
     # In your production app, Microsoft recommends you to use other ways to store your secret,
     # such as KeyVault, or environment variable as described in Flask's documentation here:
     # https://flask.palletsprojects.com/en/1.1.x/config/#configuring-from-environment-variables
@@ -30,7 +30,7 @@ class Config(object):
     AUTHORITY = "https://login.microsoftonline.com/common"  # For multi-tenant app, else put tenant name
     # AUTHORITY = "https://login.microsoftonline.com/Enter_the_Tenant_Name_Here"
 
-    CLIENT_ID = "4de28d60-6f2f-46e3-82f0-f83d0b4c2b63"
+    CLIENT_ID = "3c5f700b-670f-480c-9be8-45afcbea474a"
 
     REDIRECT_PATH = "/getAToken"  # Used to form an absolute URL; must match to app's redirect_uri set in AAD
 

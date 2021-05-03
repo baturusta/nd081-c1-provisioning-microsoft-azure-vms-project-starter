@@ -4,12 +4,12 @@
 
 Let's start with the main differences between Azure VM and Azure App Services solutions for my app:
 
-| Azure Virtual Machines     | Azure App Services |
-| ----------- | ----------- |
-| Iaas     | PaaS     |
-| Control over OS and the Infrastructure  | Control over the application code only      |
-| Any programming language can be used as long as the machine is configured accordingly  | A fixed number of languages supported   |
-|   |    |
+|| Azure Virtual Machines     | Azure App Services |
+| ----------- | ----------- | ----------- |
+| Service | Iaas     | PaaS     |
+| Control | Control over OS and the Infrastructure  | Control over the application code only |
+| Languages | Any programming language can be used as long as the machine is configured accordingly  | A fixed number of languages supported   |
+| Pricing |  For the same compute power at the same tier VM costs a little bit more  |
 
 
 Therefore, for this application, I chose Azure App Services because;

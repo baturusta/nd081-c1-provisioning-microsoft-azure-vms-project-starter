@@ -2,13 +2,15 @@
 
 ### Analyze, choose, and justify the appropriate resource option for deploying the app.
 
-Let's start with the main differences between Azure VM and Azure App Services solutions:
+Let's start with the main differences between Azure VM and Azure App Services solutions for my app:
 
--App Services is a PaaS while VM is a IaaS.
--Azure VM would give a complete control over the underlying OS and would allow the developer to customize the machine the app is running on while with App Services I have no control over the OS, only the application code that I'm deploying.
--With VM's there are more options for scaling as App Services have more hardware limitations.
--Both options have Windows and Linux supports.
--Virtual Machines are usually more expensive than App Services.
+| Azure Virtual Machines     | Azure App Services |
+| ----------- | ----------- |
+| Iaas     | PaaS     |
+| Control over OS and the Infrastructure  | Control over the application code only      |
+| Any programming language can be used as long as the machine is configured accordingly  | A fixed number of languages supported   |
+|   |    |
+
 
 Therefore, for this application, I chose Azure App Services because;
 
